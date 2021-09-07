@@ -13,13 +13,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.titlepic {
-    border-style: solid;
-    border-color: white;
-    background-color: red;
-    left: 50%;
-}
-
 .container {
     position: absolute;
     left: 50%;
@@ -62,11 +55,4 @@ body {
     background-color: #ee1d1d;
     font-size: 18px;
     color: #fafafa;
-}
-
-.marquee {
-    border-style: solid;
-    border-color: white;
-    background-color: red;
-    margin-top: 35%;
 }
