@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     font-family: 'Open Sans', sans-serif;
 }
-body{
+
+body {
     height: 100vh;
     background-image: url(https://ae01.alicdn.com/kf/HTB1QUnYXsCNZ1JjSZFHq6z.kVXax/Bintang-Langit-Malam-Hitam-Gelap-Dinding-Latar-Belakang-Vinyl-Komputer-dicetak-foto-pesta-kain-kualitas-Tinggi.jpg);
     background-size: cover;
@@ -12,7 +13,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.container{
+.container {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -22,18 +23,21 @@ body{
     background-color: rgba(0,0,0,.7);
     box-shadow: 0 0 10px rgba(255,255,255,.3);
 }
-.container h1{
+
+.container h1 {
     text-align: left;
     color: #fafafa;
     margin-bottom: 30px;
     text-transform: uppercase;
     border-bottom: 4px solid #fd1100;
 }
-.container label{
+
+.container label {
     text-align: left;
     color: #ff0000;
 }
-.container form input{
+
+.container form input {
     width: calc(100% - 20px);
     padding: 8px 10px;
     margin-bottom: 15px;
