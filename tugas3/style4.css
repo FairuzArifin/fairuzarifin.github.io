@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(https://ae01.alicdn.com/kf/HTB1QUnYXsCNZ1JjSZFHq6z.kVXax/Bintang-Langit-Malam-Hitam-Gelap-Dinding-Latar-Belakang-Vinyl-Komputer-dicetak-foto-pesta-kain-kualitas-Tinggi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form, table {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.table, h2{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #fd1100;
+}
+.table, tr{
+    text-align: left;
+    color: #ff0000;
+}
+.table, input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #ff0000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #29d8cf;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    color: black;
+}
+
+.button1 {
+    font-size: 17px;
+    float: left;
+}
+.button2 {
+    font-size: 17px;
+    float: right;
+}
+.button3 {
+    font-size: 17px;
+    float: left;
+    margin-top: 10px;
+}
+.button4 {
+    font-size: 17px;
+    float: right;
+    margin-top: 10px;
+}
+
+.table ,input[type=button] {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color: #ee1d1d;
+    font-size: 18px;
+    color: #fafafa;
+    margin-top: 20px;
+}
+
+.table, input[type=submit] {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color: #ee1d1d;
+    font-size: 18px;
+    color: #fafafa;
+}
